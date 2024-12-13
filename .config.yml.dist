@@ -1,0 +1,15 @@
+header:
+  specformat: "1.0"
+
+spec:
+  general:
+    api_key: someapikey
+    graceful_shutdown_wait_time_sec: 3
+    log_level: debug
+  llm:
+    provider: gemini
+    keywords: somekeyword
+    gemini:
+      model: gemini-1.5-flash
+      max_requests_per_minute: 5
+
